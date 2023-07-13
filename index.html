@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Ayeni Israel Olabanjo - AIOsynergy</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Israel</span><br>Ayeni From Nigeria</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------about page---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/username.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <div class="paragraph">
+                        <p>Hello! I'm Israel Ayeni, a passionate and skilled web developer with a strong focus on creating elegant and efficient digital solutions. With [number] years of experience in the industry, I have honed my expertise in front-end and back-end development, turning ideas into functional and visually appealing websites.</p>
+                    
+                        <p>I have a deep understanding of modern web technologies and stay up-to-date with the latest trends and best practices in the field. My technical skill set includes proficiency in HTML, CSS, JavaScript, and frameworks such as React and Angular. I am also experienced in server-side programming with languages like PHP and Node.js.</p>
+                        
+                        <p>My journey as a web developer began with a genuine fascination for coding and a desire to bring creative ideas to life in the digital realm. Over time, I have developed a keen eye for design and user experience, ensuring that every website I create not only looks visually stunning but also offers an intuitive and seamless browsing experience.</p>
+                        
+                        <p>Collaboration and effective communication are integral parts of my work process. I enjoy working closely with clients and team members to understand their goals, brainstorm ideas, and translate them into functional requirements. I thrive in dynamic environments, where I can contribute my problem-solving skills and attention to detail to deliver high-quality web solutions.</p>
+                        
+                        <p>Beyond technical expertise, I prioritize continuous learning and growth. I actively engage in self-improvement, exploring new frameworks, libraries, and methodologies to enhance my skills and expand my knowledge base. I believe in the power of adaptability and the importance of keeping pace with the ever-evolving landscape of web development.</p>
+                        
+                        <p>When I'm not coding, you can find me exploring new technologies, reading articles, or attending tech meetups and conferences. I am driven by a genuine passion for web development and an unwavering commitment to creating exceptional digital experiences.</p>
+                        
+                        <p>If you have a project in mind or want to collaborate, I would love to hear from you! Let's work together to transform your ideas into beautifully crafted websites that leave a lasting impact.</p>
+                    </div>                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web development</li>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Graphics Design</span><br>Graphics Design</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2020 - Current</span><br>UI/UX Design Training at ET Institute</li>
+                            <li><span>2018 - 2020</span><br>Team lead at StarApp LLC.</li>
+                            <li><span>2017 - 2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                            <li><span>2016 - 2017</span><br>Internship at ekart eCommerce.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2017</span><br>Software Engineering Alx Africa</li>
+                            <li><span>2020</span><br>BSC from Osun state University, Osogbo.</li>
+                            <li><span>2023</span><br>Developer certificate  at freecodecamp</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p class="paragraph">As a web designer, my service is centered around crafting visually captivating and user-friendly websites that effectively communicate the client's message and engage their target audience. With a keen eye for design principles and a strong understanding of user experience (UX), I specialize in creating compelling digital experiences.</p>
+                    <a href="html/myservices/services.html">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Web developer</h2>
+                    <p class="paragraph">As a web developer, my service is focused on creating high-quality, custom websites that meet the unique needs of clients. With expertise in both front-end and back-end development, I specialize in delivering seamless user experiences and robust functionality.</p>
+                    <a href="html/myservices/services.html">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p class="paragraph">As an app developer, my service revolves around designing and developing mobile applications that provide seamless and intuitive experiences for users.</p>
+                    <a href="html/myservices/services.html">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------portfolio------------ -->
+    
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/streamtube.png">
+                    <div class="layer">
+                        <h3>Streamtube Website</h3>
+                        <p>The website you can download different type of movies From</p>
+                        <a href="html/youtube/index.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/calculator.png">
+                    <div class="layer">
+                        <h3>calculator App</h3>
+                        <p>The app help you with calculation</p>
+                        <a href="html/calculator/calculator.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/ecommerce.png">
+                    <div class="layer">
+                        <h3>Online Shopping site</h3>
+                        <p>the e-commerce website for buying quality cars.</p>
+                        <a href="html/e-commerce website/e-commerce.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="html/my work/mywork.html" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ----------contact------------- -->
+    <hr>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> ayeniisrael07@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> +2347053126453</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/profile.php?id=100093574970057"><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com/in/ayeni-israel-313698202"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="documents/my-resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Israel Ayeni <i>2022</i></p>
+        </div>
+    </div>
+    
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    
+    </script>
+    
+    <script>
+    
+        var sidemeu = document.getElementById("sidemenu");
+    
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    
+    </script>
+    <script>
+        const scriptURL = '< add you own link here >' https://script.google.com/macros/s/AKfycbzohI3VlByH3KvS8aa5-bQB633FFD3dmapYQrBwHmT3KcPCDI-scR0X9wqZFI0CvRX2cA/exec
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
